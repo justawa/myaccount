@@ -1,0 +1,120 @@
+@media print {
+        p {
+            margin: 5px 0;
+        }
+
+        .mr0 {
+            margin: 0;
+        }
+
+        .mr-top {
+            margin-top: 10px;
+        }
+
+        .mr-bottom {
+            margin-bottom: 10px;
+        }
+
+        .main {
+            width: 100%;
+            float: left;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .colom-4 {
+            width: 33%;
+            float: left;
+        }
+
+        .table {
+            width: 100%;
+            border: 1px solid #ddd;
+            font-family: sans-serif;
+            font-size: 12px;
+            border-collapse: collapse;
+        }
+
+        .table-condensed>tbody>tr>td,
+        .table-condensed>tbody>tr>th,
+        .table-condensed>tfoot>tr>td,
+        .table-condensed>tfoot>tr>th,
+        .table-condensed>thead>tr>td,
+        .table-condensed>thead>tr>th {
+            padding: 5px 10px;
+        }
+
+        .table>tbody>tr>td,
+        .table>tbody>tr>th,
+        .table>tfoot>tr>td,
+        .table>tfoot>tr>th,
+        .table>thead>tr>td,
+        .table>thead>tr>th {
+            border: 1px solid #ddd;
+        }
+
+        .table>thead>tr>th {
+            padding: 10px;
+        }
+
+        #page-wrap {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .panel-body {
+            padding: 0px;
+        }
+
+        .height {
+            min-height: 200px;
+        }
+
+        .icon {
+            font-size: 47px;
+            color: #5CB85C;
+        }
+
+        .iconbig {
+            font-size: 77px;
+            color: #5CB85C;
+        }
+
+        .table>tbody>tr>.emptyrow {
+            border-top: none;
+        }
+
+        .table>thead>tr>.emptyrow {
+            border-bottom: none;
+        }
+
+        .table>tbody>tr>.highrow {
+            border-top: 3px solid;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .buyer-sign {
+            text-align: right;
+            margin-top: 50px;
+        }
+
+        .term {
+            list-style: decimal;
+            padding-left: 15px;
+        }
+
+        .term li {
+            margin: 5px 0;
+        }
+}
